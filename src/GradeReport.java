@@ -64,7 +64,7 @@ public class GradeReport {
      return totalMarks;
   }
 
-    public float average(float totalMarks) {
+    public static float average(float totalMarks) {
         // Each subject is of 100 Marks
         percentage = (totalMarks / (5 * 100)) * 100;
         return percentage;
